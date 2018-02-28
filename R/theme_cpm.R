@@ -3,12 +3,16 @@
 #' @description Set the cpm theme for ggplot2 at the moment this is only the minimal theme (theme_minimal)
 #'
 #' @export
-#' @importFrom ggplot2 theme_minimal
+#' @importFrom ggplot2 theme_minimal theme element_rect
 #'
 #' @author Rico Derks
 
 theme_cpm <- function() {
   my_theme <- ggplot2::theme_minimal()
+
+  my_theme <- my_theme +
+    ggplot2::theme(panel.background = ggplot2::element_rect(fill = "#cce5f3", colour = "white"),
+                   strip.background = ggplot2::element_rect(fill = "#007cc2", colour = "white"))
 
   return(my_theme)
 }
