@@ -7,7 +7,10 @@
 theme_cpm()
 }
 \description{
-Set the cpm theme for ggplot2 at the moment this is only the minimal theme (theme_minimal)
+Set the cpm theme for ggplot2.
+}
+\details{
+Set the CPM theme for ggplot2. The theme is based on theme_minimal()
 }
 \author{
 Rico Derks
