@@ -1,7 +1,8 @@
 Package: ggCPM
 Type: Package
 Title: ggplot2 extension for Center for Proteomics and Metabolomics
-Version: 0.2.0
+Version: 0.3.0
+Date: 2018-03-01
 Author: Rico Derks
 Maintainer: Rico Derks <r.j.e.derks@lumc.nl>
 Description: ggplot2 extension and theme for the Center for Proteomics and Metabolomics (LUMC).
