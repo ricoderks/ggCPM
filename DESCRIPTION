@@ -6,7 +6,7 @@ Date: 2018-03-01
 Author: Rico Derks
 Maintainer: Rico Derks <r.j.e.derks@lumc.nl>
 Description: ggplot2 extension and theme for the Center for Proteomics and Metabolomics (LUMC).
-License: GPL-3
+License: GPL (>= 3)
 Encoding: UTF-8
 LazyData: true
 Imports:
